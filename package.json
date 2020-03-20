@@ -67,7 +67,7 @@
     "vue": "^2.0.0",
     "vue-loader": "^10.0.0",
     "vue-template-compiler": "^2.0.0",
-    "webpack": "^1.13.2",
+    "webpack": "^2.2.0",
     "webpack-dev-middleware": "^1.6.1",
     "webpack-hot-middleware": "^2.12.2"
   }

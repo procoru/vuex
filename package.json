@@ -23,7 +23,9 @@
     "test:types": "tsc -p types/test",
     "release": "bash build/release.sh",
     "docs": "cd docs && gitbook serve",
-    "docs:deploy": "cd docs && ./deploy.sh"
+    "docs:deploy": "cd docs && ./deploy.sh",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -70,5 +72,9 @@
     "webpack": "^1.13.2",
     "webpack-dev-middleware": "^1.6.1",
     "webpack-hot-middleware": "^2.12.2"
+  },
+  "snyk": true,
+  "dependencies": {
+    "snyk": "^1.316.1"
   }
 }

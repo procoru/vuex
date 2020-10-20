@@ -51,7 +51,7 @@
     "eslint-config-vue": "^1.0.0",
     "eslint-plugin-html": "^1.5.2",
     "express": "^4.14.0",
-    "jasmine": "2.4.1",
+    "jasmine": "2.5.1",
     "jasmine-core": "2.4.1",
     "nightwatch": "^0.9.5",
     "nightwatch-helpers": "^1.1.0",
